@@ -1,0 +1,108 @@
+body {
+    font-family: 'poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header .logo,
+header .logo-culto {
+    width: 150px;
+    transition: 0.2s ease-in-out;
+}
+
+header .logo,
+header .logo-culto {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+header .logo:hover,
+header .logo-culto:hover,
+main.cartao-das-subs:hover,
+main .descicao-lider:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+
+main {
+    padding: 30px;
+}
+
+main .subs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .descicao-lider{
+    background-color: #2e2e2e;
+    width: 850px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+main .descicao-lider:hover{
+    background-color: aliceblue;
+    transform: scale(1.05);
+    
+}
+
+main .cartao-das-subs{
+    background-color: #2e2e2e;
+    width: 380px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+main .lideranca
+
+main .cartao-das-subs:hover{
+    background-color: aliceblue;
+    transform: scale(1.05)
+}
+
+main .cartao-das-subs .informacoes {
+    display: flex;
+    justify-content: center;
+}
+
+main .cartao-das-subs .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+main .cartao-das-subs .lideranca {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 30;
+    color: blueviolet;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 20px;
+    padding-right: 10px;
+    color: blueviolet;
+}
+
+main .medias{
+max-width: 10;
+}
+main .media{
+    max-width: 15px;
+}
