@@ -23,14 +23,14 @@ header .logo-culto {
     transform: scale(1.05);
     cursor: pointer;
 }
+
 header .logo:hover,
 header .logo-culto:hover,
 main.cartao-das-subs:hover,
-main .descicao-lider:hover{
+main .descicao-lider:hover {
     transform: scale(1.25);
     cursor: pointer;
 }
-
 
 main {
     padding: 30px;
@@ -43,21 +43,31 @@ main .subs {
     justify-content: center;
 }
 
-main .descicao-lider{
-    background-color: #2e2e2e;
-    width: 850px;
+main .loc {
     padding: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
-}
-main .descicao-lider:hover{
-    background-color: aliceblue;
-    transform: scale(1.05);
-    
+    align-items: center;
+    color: blueviolet;
+    font-size: 30px;
 }
 
-main .cartao-das-subs{
+main .container-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+main .descicao-lider:hover {
+    background-color: aliceblue;
+    transform: scale(1.05);
+
+}
+
+main .cartao-das-subs {
     background-color: #2e2e2e;
     width: 380px;
     padding: 15px;
@@ -66,9 +76,8 @@ main .cartao-das-subs{
     align-items: center;
     border-radius: 15px;
 }
-main .lideranca
 
-main .cartao-das-subs:hover{
+main .lideranca main .cartao-das-subs:hover {
     background-color: aliceblue;
     transform: scale(1.05)
 }
@@ -100,9 +109,75 @@ main .descricao {
     color: blueviolet;
 }
 
-main .medias{
-max-width: 10;
+main .imagens-subs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-main .media{
-    max-width: 15px;
-}
+
+main .imagens {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 400px;
+    align-items: center;}
+
+    .slider-container {
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      .slider img {
+        width: 100%;
+        height: auto;
+      }
+      .slider-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      .slider img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .slider-controls {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      }
+      
+      .slider-controls button {
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 0 10px;
+        outline: none;
+      }
+      
+      .slider-controls button:hover {
+        color: #fdfdfd;
+      }
+      .benjamidia1{
+        align-items: center;
+        color: blueviolet;
+        justify-content: center;
+    
+
+      }
